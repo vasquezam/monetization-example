@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.monday-monetization-example {
+  padding-top: 70px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.monday-monetization-example__plans-container {
+  margin-top: 32px;
+  display:flex;
+}
+
+.monday-monetization-example__plan {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: 1px black solid;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.selected-plan{
+  background-color: dodgerblue;
+  color: white;
+}
+
+.monday-monetization-example__no-subscription {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-size: 46px;
+  width: 100%;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
